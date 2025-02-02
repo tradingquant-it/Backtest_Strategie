@@ -14,7 +14,7 @@ import yfinance as yf
 
 # imposta il percorso del file del database a cui desideriamo connetterci
 # questo è univoco e dipende dove si trova il database SQLite nel sistema locale
-database = "C:\Users\Datatrading\sqlite_databases\etfs.db"
+database = "../sqlite_databases/etfs.db"
 
 # questa è l'istruzione SQL contenente le informazioni riguardo
 # a quali ticker vogliamo estrarre dal database
